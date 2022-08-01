@@ -1,0 +1,40 @@
+body{
+    font-family: "JetBrains Mono", monospace;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transform: scaleY(1);
+    padding: 0;
+    transition: none;   
+    list-style: none;
+    margin-left: left 5px;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    aspect-ratio: auto 222 / 55;
+    
+}
+
+.text-aline{
+    text-align: center;
+}
+.title{
+    padding: 10px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #0a1e32;
+}
